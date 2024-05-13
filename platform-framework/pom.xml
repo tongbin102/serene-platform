@@ -8,10 +8,10 @@
         <artifactId>serene-platform</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>platform-common</artifactId>
-    <name>platform-common</name>
+    <artifactId>platform-framework</artifactId>
+    <name>platform-framework</name>
     <packaging>jar</packaging>
-    <description>platform-common</description>
+    <description>platform-framework</description>
     <version>1.0.0</version>
 
     <properties>
@@ -21,15 +21,15 @@
     </properties>
 
     <dependencies>
-        <!--Spring Web-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.serene</groupId>
+            <artifactId>platform-system</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
-        <finalName>serene-platform-common</finalName>
+        <finalName>serene-platform-framework</finalName>
     </build>
 
 </project>

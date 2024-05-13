@@ -10,11 +10,12 @@
     <packaging>pom</packaging>
     <description>Serene Platform</description>
 
-<!--    <modules>-->
-<!--        <module>-->
-
-<!--        </module>-->
-<!--    </modules>-->
+    <modules>
+        <module>platform-common</module>
+        <module>platform-system</module>
+        <module>platform-framework</module>
+        <module>platform-support</module>
+    </modules>
 
     <properties>
         <!--开发平台统一版本号-->
@@ -34,6 +35,34 @@
                 <version>${springboot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- 平台公共模块-->
+            <dependency>
+                <groupId>com.serene</groupId>
+                <artifactId>platform-common</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 系统内核-->
+            <dependency>
+                <groupId>com.serene</groupId>
+                <artifactId>platform-system</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 系统框架-->
+            <dependency>
+                <groupId>com.serene</groupId>
+                <artifactId>platform-framework</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
+            <!-- 系统支持-->
+            <dependency>
+                <groupId>com.serene</groupId>
+                <artifactId>platform-support</artifactId>
+                <version>1.0.0</version>
             </dependency>
 
             <dependency>
