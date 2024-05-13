@@ -1,8 +1,8 @@
 package com.serene.platform.common.utils;
 
 import com.serene.platform.common.constants.CacheConstants;
-import com.serene.platform.common.enums.DataDictionaryExceptionEnums;
 import com.serene.platform.common.exception.CustomException;
+import com.serene.platform.common.exception.DataDictionaryExceptionEnums;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

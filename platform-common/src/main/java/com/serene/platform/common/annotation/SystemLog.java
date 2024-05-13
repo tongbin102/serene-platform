@@ -1,6 +1,7 @@
 package com.serene.platform.common.annotation;
 
 
+import com.serene.platform.common.enums.ExecuteResultEnums;
 import com.serene.platform.common.enums.LogTypeEnums;
 
 import java.lang.annotation.ElementType;
@@ -40,5 +41,5 @@ public @interface SystemLog {
     /**
      * 执行是否成功
      */
-    ExecuteResultEnum executeResult() default ExecuteResultEnum.FAILURE;
+    ExecuteResultEnums executeResult() default ExecuteResultEnums.FAILURE;
 }

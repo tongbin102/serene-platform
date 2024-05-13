@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.serene.platform.common.exception.CommonException;
 import com.serene.platform.common.exception.CustomException;
-import com.sun.javaws.CacheUtil;
+import com.serene.platform.common.utils.CacheUtils;
 import ma.glasnost.orika.MapperFacade;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ public class BaseServiceImpl<M extends BaseMapper<T>, T extends BaseMapEntity>
         extends ServiceImpl<M, T> implements BaseService<T> {
 
     @Autowired
-    protected CacheUtil cacheUtil;
+    protected CacheUtils cacheUtils;
 
     @Autowired
     protected MapperFacade mapperFacade;

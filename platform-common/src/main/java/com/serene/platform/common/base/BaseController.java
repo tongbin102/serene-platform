@@ -1,8 +1,8 @@
 package com.serene.platform.common.base;
 
 import com.serene.platform.common.query.QueryGenerator;
+import com.serene.platform.common.utils.CacheUtils;
 import com.serene.platform.common.utils.DictionaryUtils;
-import com.sun.javaws.CacheUtil;
 import ma.glasnost.orika.MapperFacade;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.WebDataBinder;
@@ -25,7 +25,7 @@ public class BaseController {
     protected DictionaryUtils dictionaryUtil;
 
     @Autowired
-    protected CacheUtil cacheUtil;
+    protected CacheUtils cacheUtils;
 
 
     /**
