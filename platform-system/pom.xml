@@ -11,7 +11,7 @@
     <artifactId>platform-system</artifactId>
     <name>platform-system</name>
     <packaging>jar</packaging>
-    <description>platform-system</description>
+    <description>Serene平台系统管理模块</description>
     <version>1.0.0</version>
 
     <properties>
@@ -24,6 +24,11 @@
         <dependency>
             <groupId>com.serene</groupId>
             <artifactId>platform-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.serene</groupId>
+            <artifactId>platform-boot-starter-notification</artifactId>
         </dependency>
 
     </dependencies>

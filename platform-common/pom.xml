@@ -11,7 +11,7 @@
     <artifactId>platform-common</artifactId>
     <name>platform-common</name>
     <packaging>jar</packaging>
-    <description>platform-common</description>
+    <description>Serene平台通用模块</description>
     <version>1.0.0</version>
 
     <properties>
